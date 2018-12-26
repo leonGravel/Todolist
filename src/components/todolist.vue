@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id='todo-item'>
      <el-checkbox v-model="checked"
     
       v-bind:key="todo.id"
@@ -26,3 +26,10 @@ export default {
     }
 }
 </script>
+
+ <style scoped>
+
+#todo-item {
+ text-align: left;
+}
+</style>
